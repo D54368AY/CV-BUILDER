@@ -1,0 +1,24 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+backend/node_modules
+
+# dependencies
+cv-builder/node_modules
+cv-builder/.pnp
+cv-builder/.pnp.js
+
+# testing
+cv-builder/coverage
+
+# production
+cv-builder/build
+
+# misc
+cv-builder/.DS_Store
+cv-builder/.env.local
+cv-builder/.env.development.local
+cv-builder/.env.test.local
+cv-builder/.env.production.local
+
+cv-builder/npm-debug.log*
+cv-builder/yarn-debug.log*
+cv-builder/yarn-error.log*

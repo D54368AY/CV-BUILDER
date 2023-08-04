@@ -1,0 +1,1 @@
+export const INVOICE_URL="http://localhost:8899/api/";
